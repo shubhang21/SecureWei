@@ -1,0 +1,16 @@
+  |
+6 |   constructor() public{
+  |   ^ (Relevant source part starts here and spans across multiple lines).
+   |
+25 |     function supportsToken() external returns(bytes32) {
+   |     ^ (Relevant source part starts here and spans across multiple lines).
+Reentrancy in ModifierEntrancy.airDrop() (input.sol#10-12):
+	External calls:
+	- supportsToken() (input.sol#10)
+		- require(bool)(keccak256(bytes)(abi.encodePacked(Nu Token)) == bank.supportsToken()) (input.sol#15)
+	State variables written after the call(s):
+	- tokenBalance[msg.sender] += 20 (input.sol#11)
+Pragma version is too complex
+ModifierEntrancy.name (input.sol#4) is never used in ModifierEntrancy (input.sol#2-23)
+airDrop() should be declared external:
+	- ModifierEntrancy.airDrop() (input.sol#10-12)

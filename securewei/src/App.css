@@ -1,0 +1,56 @@
+body,html{
+  background-color: #252830;
+  color: #cfd2da;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+
+}
+.body{
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.mar{
+  margin: 0px;
+}
+/* .tc
+{
+  flex-grow: 1,1,1;
+  text-align: center;  
+  
+} */
+
+/* .Output{
+  margin-right: 20px;
+  background-color: #272822;
+  align-items: center;
+  width: 50%;
+  color: #f8f8f2;
+  min-width: 250px; 
+  text-align: center;
+  border-bottom: 1px solid #252830;
+} */
+.wrapper{
+  text-align: left;
+  justify-content: left;
+  align-items: center;
+}
+.table{
+  color:"#cfd2da"
+}
+.wrapcenter{
+  text-align: center;
+  justify-content: left;
+  align-items: center;
+}
+.wrapper2{
+  display: flex;
+  justify-content: space-between;
+  margin-left:50px ;
+  margin-right:50px ;
+  
+}
+

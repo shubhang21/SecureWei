@@ -1,0 +1,21 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    
+}
+
+.header{
+    background-image: url(./media/bg.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    height: 500px;
+    background-size: cover;
+    margin: 0px;
+}
+
+
+/* .container{
+    height: 100%;
+    color: aliceblue;
+    
+} */
